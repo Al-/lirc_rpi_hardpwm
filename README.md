@@ -56,6 +56,8 @@ a RPi3.
 If you compile for another model than RPi 3, then modify the line
 "#define RPI 3" in lirc_rpi.c accordingly; but read above note on RPi models.
 
+The path to your raspberry kernel directory needs to be adjusted in Makefile.
+
 Then, in the directory where this file, lirc_rpi.c and Makefile are sitting:
 $ make ARCH=arm CROSS_COMPILE=arm-linux-gnueabihf-
 
