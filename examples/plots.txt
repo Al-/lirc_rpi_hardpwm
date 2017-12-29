@@ -1,0 +1,4 @@
+In this folder I provide a few outputs to demonstrate
+- that carrier frequencies up to 455 kHz can be handled
+- that duty cycles ranging from 25% to 75% allow reasonably accurate carrier frequencies
+The filenames of the plots should be self explanatory
